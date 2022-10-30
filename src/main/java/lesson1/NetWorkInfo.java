@@ -33,5 +33,8 @@ public class NetWorkInfo {
         } catch (SocketException e) {
             System.out.println(e.getMessage());
         }
+        String info = sb.toString();
+        System.out.println(info);
+        sb.setLength(0);
     }
 }

@@ -5,8 +5,8 @@ import java.net.SocketException;
 import java.util.stream.Stream;
 
 public class NetWorkInfo {
-    Stream<NetworkInterface> networkInterfaces;
-    StringBuilder sb = new StringBuilder();
+    private Stream<NetworkInterface> networkInterfaces;
+    private StringBuilder sb = new StringBuilder();
 
     public void getNetworkInterfaces() {
 

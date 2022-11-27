@@ -10,7 +10,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>client</artifactId>
+    <artifactId>udp-client</artifactId>
 
     <build>
         <plugins>
@@ -29,7 +29,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>src.main.java.lesson4.server.Client</mainClass>
+                            <mainClass>src.main.java.lesson4.client.Client</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

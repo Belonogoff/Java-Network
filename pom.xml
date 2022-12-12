@@ -11,8 +11,10 @@
     <modules>
         <module>src/main/java/lesson4/server</module>
         <module>src/main/java/lesson4/client</module>
-        <module>src/main/java/lesson5/client</module>
         <module>src/main/java/lesson5/server</module>
+        <module>src/main/java/lesson5/client</module>
+        <module>src/main/java/lesson7/server</module>
+        <module>src/main/java/lesson7/client</module>
     </modules>
 
     <properties>

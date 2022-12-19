@@ -13,6 +13,8 @@
         <module>src/main/java/lesson4/client</module>
         <module>src/main/java/lesson5/client</module>
         <module>src/main/java/lesson5/server</module>
+        <module>src/main/java/lessonFinal/server</module>
+        <module>src/main/java/lessonFinal/client</module>
     </modules>
 
     <properties>
@@ -20,5 +22,13 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.85.Final</version>
+        </dependency>
+    </dependencies>
 
 </project>
